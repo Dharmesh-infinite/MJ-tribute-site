@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    background: rgb(7, 4, 4);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      transition: 0.5s ease-in;
+
+  }
+  nav {
+    font-size: 2.3vw;
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgba(117, 129, 139, 0.644);
+  }
+  a {
+    color: aliceblue;
+    text-decoration: none;
+    padding: 1vw;
+  }
+  a:hover{
+    text-decoration: underline;
+    color: beige;
+    margin: 5px;
+    border: 1px solid whitesmoke;
+    border-radius: 20px;
+  }
+
+h2{
+    text-decoration: underline;
+    text-align: left;
+}
+.books{
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid whitesmoke;
+  padding: 2vw;
+  margin: 5.5vw;
+  font-size: 1.4rem;
+  border-radius: 40px;
+  
+}
+.books:hover{
+    color: wheat;
+    background-color: rgb(26, 25, 25);
+
+}
